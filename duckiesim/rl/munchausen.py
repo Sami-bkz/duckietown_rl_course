@@ -83,9 +83,9 @@ class Args:
     """the frequency of training"""
 
     # Munchausen specific arguments
-    tau_soft: float = 0.03 #0.03
+    tau_soft: float = 0.4 #0.03
     """the temperature parameter for the soft-max policy as well as entropy regularization : tau = lambda_kl + lambda_entropy"""
-    alpha: float = 0.9 # 0.9
+    alpha: float = 0.5 # 0.9
     """the ppo term weight : alpha = lambda_kl / (lambda_kl + lambda_entropy)"""
     l_0: float = -1.0
     """the lower bound of the weighted log probability"""
