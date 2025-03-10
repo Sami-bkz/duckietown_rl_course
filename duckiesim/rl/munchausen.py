@@ -95,7 +95,7 @@ class Args:
     """the polyak averaging coefficient"""
 
     # Dataset argument
-    load_dataset : bool = False
+    load_dataset : bool = True
     """Whether to load a dataset from a file"""
     file_dataset: str = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/manual/dataset/expert_data_36591.parquet'
     """Path to the dataset file (Parquet) to initialize the replay buffer"""
