@@ -1,0 +1,41 @@
+{
+  "os":  "Linux-6.8.0-1020-azure-x86_64-with-glibc2.17",
+  "python":  "CPython 3.8.20",
+  "startedAt":  "2025-03-05T10:59:50.502553Z",
+  "program":  "munchausen.py",
+  "codePath":  "duckiesim/rl/munchausen.py",
+  "git":  {
+    "remote":  "https://github.com/Sami-bkz/duckietown_rl_course.git",
+    "commit":  "d6243e07d5f2274b14f52ea0915b8ca0a4109223"
+  },
+  "root":  "/home/duckietown_rl_course/duckiesim/rl",
+  "host":  "lab000000",
+  "executable":  "/opt/conda/envs/duckietownrl/bin/python",
+  "codePathLocal":  "munchausen.py",
+  "cpu_count":  6,
+  "cpu_count_logical":  6,
+  "gpu":  "Tesla V100-PCIE-16GB",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "155897610240",
+      "used":  "93103579136"
+    }
+  },
+  "memory":  {
+    "total":  "118158376960"
+  },
+  "cpu":  {
+    "count":  6,
+    "countLogical":  6
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla V100-PCIE-16GB",
+      "memoryTotal":  "17179869184",
+      "cudaCores":  5120,
+      "architecture":  "Volta"
+    }
+  ],
+  "cudaVersion":  "12.2"
+}

@@ -1,0 +1,15 @@
+{"time":"2025-03-05T10:59:50.506356484Z","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/duckietown_rl_course/duckiesim/rl/wandb/offline-run-20250305_105950-plotmmn2/logs/debug-core.log"}
+{"time":"2025-03-05T10:59:50.608275681Z","level":"INFO","msg":"created new stream","id":"plotmmn2"}
+{"time":"2025-03-05T10:59:50.60831268Z","level":"INFO","msg":"stream: started","id":"plotmmn2"}
+{"time":"2025-03-05T10:59:50.608349878Z","level":"INFO","msg":"writer: Do: started","stream_id":"plotmmn2"}
+{"time":"2025-03-05T10:59:50.608382277Z","level":"INFO","msg":"handler: started","stream_id":"plotmmn2"}
+{"time":"2025-03-05T10:59:50.608359778Z","level":"INFO","msg":"sender: started","stream_id":"plotmmn2"}
+{"time":"2025-03-05T10:59:50.612731432Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T10:59:50.613035722Z","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-03-05T10:59:50.843220435Z","level":"INFO","msg":"stream: closing","id":"plotmmn2"}
+{"time":"2025-03-05T10:59:50.843262634Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T10:59:50.843798916Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T10:59:50.843858714Z","level":"INFO","msg":"handler: closed","stream_id":"plotmmn2"}
+{"time":"2025-03-05T10:59:50.843872513Z","level":"INFO","msg":"writer: Close: closed","stream_id":"plotmmn2"}
+{"time":"2025-03-05T10:59:50.843886113Z","level":"INFO","msg":"sender: closed","stream_id":"plotmmn2"}
+{"time":"2025-03-05T10:59:50.844009609Z","level":"INFO","msg":"stream: closed","id":"plotmmn2"}

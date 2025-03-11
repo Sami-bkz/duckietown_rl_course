@@ -1,0 +1,28 @@
+/opt/conda/envs/duckietownrl/lib/python3.8/site-packages/gymnasium/envs/registration.py:485: UserWarning: [33mWARN: The environment creator metadata doesn't include `render_modes`, contains: ['render.modes', 'video.frames_per_second'][0m
+  logger.warn(
+Traceback (most recent call last):
+  File "munchausen.py", line 230, in <module>
+    envs = gym.vector.SyncVectorEnv(
+  File "/opt/conda/envs/duckietownrl/lib/python3.8/site-packages/gymnasium/vector/sync_vector_env.py", line 86, in __init__
+    self.envs = [env_fn() for env_fn in env_fns]
+  File "/opt/conda/envs/duckietownrl/lib/python3.8/site-packages/gymnasium/vector/sync_vector_env.py", line 86, in <listcomp>
+    self.envs = [env_fn() for env_fn in env_fns]
+  File "munchausen.py", line 121, in thunk
+    env = gym.make(env_id)
+  File "/opt/conda/envs/duckietownrl/lib/python3.8/site-packages/gymnasium/envs/registration.py", line 740, in make
+    env = env_creator(**env_spec_kwargs)
+  File "/home/duckietown_rl_course/duckietownrl/gym_duckietown/envs/duckietown_discrete_env.py", line 16, in __init__
+    Simulator.__init__(self, **kwargs)
+  File "/home/duckietown_rl_course/duckietownrl/gym_duckietown/simulator.py", line 282, in __init__
+    information = get_graphics_information()
+  File "/home/duckietown_rl_course/duckietownrl/gym_duckietown/check_hw.py", line 33, in get_graphics_information
+    dummy_window = pyglet.window.Window(width=1, height=1, visible=False)
+  File "/opt/conda/envs/duckietownrl/lib/python3.8/site-packages/pyglet/window/xlib/__init__.py", line 173, in __init__
+    super(XlibWindow, self).__init__(*args, **kwargs)
+  File "/opt/conda/envs/duckietownrl/lib/python3.8/site-packages/pyglet/window/__init__.py", line 585, in __init__
+    display = pyglet.canvas.get_display()
+  File "/opt/conda/envs/duckietownrl/lib/python3.8/site-packages/pyglet/canvas/__init__.py", line 94, in get_display
+    return Display()
+  File "/opt/conda/envs/duckietownrl/lib/python3.8/site-packages/pyglet/canvas/xlib.py", line 123, in __init__
+    raise NoSuchDisplayException('Cannot connect to "%s"' % name)
+pyglet.canvas.xlib.NoSuchDisplayException: Cannot connect to "None"

@@ -1,0 +1,662 @@
+/opt/conda/envs/duckietownrl/lib/python3.8/site-packages/gymnasium/envs/registration.py:485: UserWarning: [33mWARN: The environment creator metadata doesn't include `render_modes`, contains: ['render.modes', 'video.frames_per_second'][0m
+  logger.warn(
+INFO:duckietown_world: data: [38;5;127m/opt/conda/envs/duckietownrl/lib/python3.8/site-packages/duckietown_world/data[0m
+ppo.py:214: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  agent.load_state_dict(torch.load("/home/duckietown_rl_course/duckiereal/imitation_learning/models_imitation/behavioral_cloning_ppo.pt"))
+/opt/conda/envs/duckietownrl/lib/python3.8/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The default seed argument in `Env.reset` should be `None`, otherwise the environment will by default always be deterministic. Actual default: seed=673[0m
+  logger.warn(
+Iteration 1/4882
+	Sampling in progress...
+	Evaluation in progress...
+/opt/conda/envs/duckietownrl/lib/python3.8/site-packages/gymnasium/envs/registration.py:485: UserWarning: [33mWARN: The environment creator metadata doesn't include `render_modes`, contains: ['render.modes', 'video.frames_per_second'][0m
+  logger.warn(
+Eval score: -3755.810964795982, Best eval score : -1000000000.0
+model saved to model/exp_28
+Step: 2048, Eval score: -3755.810964795982
+	Optimization step in progress...
+ppo.py:332: UserWarning: you are shuffling a 'Tensor' object which is not a subclass of 'Sequence'; `shuffle` is not guaranteed to behave correctly. E.g., non-numpy array/tensor objects with view semantics may contain duplicates after shuffling.
+  np.random.shuffle(b_inds)
+tensor(1579.5782, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1141.5507, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1121.4351, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(880.6458, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(891.6354, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(480.9849, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(297.0958, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(165.5389, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(78.8560, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(25.7715, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(101.2623, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(209.8368, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(249.1140, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(258.0734, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(236.1983, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(223.4342, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 22
+Iteration 2/4882
+	Sampling in progress...
+	Evaluation in progress...
+Eval score: -2430.629401987351, Best eval score : -3755.810964795982
+model saved to model/exp_28
+Step: 4096, Eval score: -2430.629401987351
+	Optimization step in progress...
+tensor(245.2113, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(400.5788, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1518.7195, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2209.0488, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(321.2398, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(350.1870, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(394.1598, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(820.0219, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(201.2324, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(117.6019, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(64.9315, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(156.1655, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(7.8131, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(40.9277, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(83.6094, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(131.9609, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 29
+Iteration 3/4882
+	Sampling in progress...
+	Evaluation in progress...
+Eval score: -981.7419545614672, Best eval score : -2430.629401987351
+model saved to model/exp_28
+Step: 6144, Eval score: -981.7419545614672
+	Optimization step in progress...
+tensor(9096.8750, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(5999.4863, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3979.9829, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3096.0627, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(6815.2568, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(4869.9009, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3625.2996, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2790.1047, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3324.5776, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2471.1245, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1823.2938, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1513.1967, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(970.2725, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(721.0054, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(627.7073, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(506.1004, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 35
+Iteration 4/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(1386.9453, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1280.9646, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1278.2632, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1946.2827, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1746.9819, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1459.7408, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1456.1572, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1422.1752, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1886.3459, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1399.2069, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1391.8213, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1267.1304, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1662.4451, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1656.5596, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1248.9573, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1154.5194, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 42
+Iteration 5/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(2799.1753, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2945.8916, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2288.2410, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3109.6035, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3486.9263, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2446.2388, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2372.9966, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2279.2275, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3598.7754, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2507.1792, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2362.4199, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2165.2844, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2900.8193, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2435.4070, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2192.9058, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2103.3904, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 48
+Iteration 6/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(3332.3252, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2015.3750, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1785.2932, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2105.4741, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2237.1970, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1775.3792, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1519.0634, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1595.8573, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(4280.3135, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2649.5784, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2254.0767, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2188.3955, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(6656.4697, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(4595.8384, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3516.5200, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2834.4424, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 53
+Iteration 7/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(4286.4424, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2445.1475, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2586.1709, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2355.0630, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(4767.6987, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3432.8354, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2838.0898, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2495.0532, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3060.8457, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2509.9956, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1952.5149, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1568.8428, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(804.6395, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(533.6949, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(681.1722, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(875.9012, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 57
+Iteration 8/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(3609.1245, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2421.4741, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2116.8896, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1866.5171, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(237.1336, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(272.2194, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1112.2922, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1983.1538, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(689.3831, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(822.5983, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1307.9337, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1446.2825, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(642.1884, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(358.5486, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(268.4712, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(114.9837, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 60
+Iteration 9/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(3255.5237, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2391.3777, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2084.1890, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2230.6753, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3469.7175, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3547.1355, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2787.0327, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2596.4373, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2176.6533, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2614.5962, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2224.5322, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1995.8813, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1495.0249, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1398.9524, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1291.3704, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1306.0493, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 63
+Iteration 10/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(2537.9053, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3616.1768, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3447.0247, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3795.9758, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1962.9202, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2629.4570, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3159.1292, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2785.6328, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1700.0701, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1964.9934, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2352.8701, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2276.6230, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1216.0372, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1766.3739, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1863.7412, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1977.8098, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 65
+Iteration 11/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(2537.6797, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2551.7979, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2307.4521, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2500.1201, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2346.4304, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2570.2773, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2493.3823, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2461.5664, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1963.8217, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2283.8140, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2218.7324, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2195.3792, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(681.2694, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1543.5427, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1646.7805, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1925.6371, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 68
+Iteration 12/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(2357.1060, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2545.1514, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2572.8110, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2808.7983, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1790.4209, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2001.1064, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2085.3333, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2024.1008, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1302.3323, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1449.3645, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1491.6256, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1418.1948, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(866.1567, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1011.3240, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1087.5823, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1050.6281, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 70
+Iteration 13/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(2300.1028, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2240.8616, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2062.3801, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2540.8435, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2799.0266, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1986.6848, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1602.8674, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1698.5107, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2812.3804, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1968.7122, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1600.2867, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1525.1528, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(978.8560, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(927.0888, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1008.3304, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1382.7678, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 71
+Iteration 14/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(6299.9209, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(4876.9092, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3111.8315, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2344.3149, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3853.0986, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2033.4647, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1406.2085, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(998.5313, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(968.4578, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(437.1990, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(459.6044, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(608.5515, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(343.7285, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(478.4271, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(598.8257, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(567.6799, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 73
+Iteration 15/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(3721.7717, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3408.2026, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3217.9126, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3135.0874, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2676.3979, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2804.6406, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2291.8975, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2503.7827, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1231.5718, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1106.4141, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(962.3580, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1048.9546, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(363.3675, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(258.7590, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(242.0556, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(285.5154, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 75
+Iteration 16/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(2314.5186, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2812.0706, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3448.3833, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2952.3167, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2572.1970, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2523.6655, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2786.8965, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2793.2097, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2940.2844, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2239.3359, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1969.5944, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2157.4631, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2409.9673, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1863.6445, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1663.2634, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1570.5419, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 76
+Iteration 17/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(1783.4855, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2095.9019, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2173.1235, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2093.8286, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1818.3367, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2145.1890, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2108.0366, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1948.2338, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1511.9009, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1392.5520, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1569.2775, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1598.9609, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1032.9504, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(801.5055, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(987.4479, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(928.3079, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 77
+Iteration 18/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(1581.4652, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1517.9010, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1573.6545, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1644.8953, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1782.3491, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1354.8988, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1299.6414, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1210.0281, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1770.5972, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1486.6196, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1399.8098, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1336.0374, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1623.2202, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1295.6322, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1270.1624, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1269.7317, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 78
+Iteration 19/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(3935.4019, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2628.6489, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3482.3066, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3464.6008, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(4229.4009, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2856.8369, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2247.8359, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2360.6284, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3002.2153, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(2148.5352, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1854.7703, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1767.3923, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1290.0830, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1134.6921, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1205.5825, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1671.7399, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 79
+Iteration 20/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(2446.4927, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3200.3708, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3413.6340, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(3215.8408, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1485.5283, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1864.8942, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1986.3462, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1787.3081, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1218.2617, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1631.0856, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1675.4221, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1603.3655, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(925.5420, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1219.6406, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1255.6560, device='cuda:0', grad_fn=<MulBackward0>)
+tensor(1224.6559, device='cuda:0', grad_fn=<MulBackward0>)
+SPS: 80
+Iteration 21/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(2049.5076, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1270.3380, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1388.0692, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1448.6250, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1501.8777, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1775.3384, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1532.4891, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1196.5880, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(613.1230, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1055.3442, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1075.4365, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1092.4006, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(265.2448, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(421.2031, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(495.6094, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(532.8051, device='cuda:0', grad_fn=<AddBackward0>)
+SPS: 81
+Iteration 22/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(3280.9961, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2268.4133, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2701.9226, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2804.3755, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(3803.4805, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2365.2422, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1986.9207, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1895.3818, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2169.8821, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1887.6713, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2013.5768, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2005.1436, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1250.4408, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1364.3408, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1484.8945, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1448.4609, device='cuda:0', grad_fn=<AddBackward0>)
+SPS: 82
+Iteration 23/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(3288.7266, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(3116.5354, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(3411.5815, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(3170.3433, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2868.3625, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2125.6277, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2199.1030, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1888.1377, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(710.5095, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1059.9108, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1359.6710, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1925.3666, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1241.7479, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1195.2598, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1084.5612, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1322.7891, device='cuda:0', grad_fn=<AddBackward0>)
+SPS: 83
+Iteration 24/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(4001.0537, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(3455.6899, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(3487.8560, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(3386.1804, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1689.0514, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1809.6593, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2043.7964, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2609.5527, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(282.8304, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(487.1960, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(794.0099, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1617.1321, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(349.6836, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(431.8569, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(605.8293, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(759.6779, device='cuda:0', grad_fn=<AddBackward0>)
+SPS: 83
+Iteration 25/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(4013.7883, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(3299.0935, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2955.4873, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2661.0588, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(3831.4172, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2676.0811, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2265.6433, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2008.7758, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1962.9294, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1134.4768, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(691.0731, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(679.2347, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(411.1445, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(286.2466, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(334.9466, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(441.1141, device='cuda:0', grad_fn=<AddBackward0>)
+SPS: 84
+Iteration 26/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(3235.6467, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2898.5874, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(3041.7822, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2429.5129, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2497.8162, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2630.5337, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2250.4951, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2010.5233, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1619.0428, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1699.5782, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1700.8625, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1647.0599, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2353.4407, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2094.7185, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1799.9025, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1669.8560, device='cuda:0', grad_fn=<AddBackward0>)
+SPS: 85
+Iteration 27/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(3409.6184, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2502.2017, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2638.0806, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2818.4177, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(3630.0044, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2694.3118, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2396.5151, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2508.7087, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1942.8945, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1428.2295, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1270.3900, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1547.6050, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(340.5617, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(346.8884, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(674.7384, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1078.7700, device='cuda:0', grad_fn=<AddBackward0>)
+SPS: 85
+Iteration 28/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(1878.3293, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2594.5835, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(3181.7385, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(3330.1067, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1744.7180, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2060.5591, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2305.4058, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2529.1487, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1941.4760, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1657.8773, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1763.0802, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1846.1664, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(886.9684, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(966.9937, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1056.2043, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1359.8319, device='cuda:0', grad_fn=<AddBackward0>)
+SPS: 86
+Iteration 29/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(2799.2688, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(3382.2476, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(3373.8486, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(4126.6274, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2003.8033, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2764.1206, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2819.4287, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(3117.5894, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1130.5720, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2349.7231, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2112.9053, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(2374.4260, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(601.6515, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1237.6346, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1430.1897, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1806.8542, device='cuda:0', grad_fn=<AddBackward0>)
+SPS: 86
+Iteration 30/4882
+	Sampling in progress...
+	Evaluation in progress...
+	Optimization step in progress...
+tensor(1727.3516, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1733.6639, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1897.5227, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1997.2736, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1305.2489, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1625.2786, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1739.2363, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1630.8951, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(740.8863, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1169.7393, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1423.6636, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(1290.2644, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(364.8177, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(744.7484, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(837.2240, device='cuda:0', grad_fn=<AddBackward0>)
+tensor(868.2516, device='cuda:0', grad_fn=<AddBackward0>)
+SPS: 86
+Iteration 31/4882
+	Sampling in progress...
+Traceback (most recent call last):
+  File "ppo.py", line 279, in <module>
+    next_obs, reward, terminations, truncations, infos = envs.step(np.array(action.cpu().tolist()))
+  File "/opt/conda/envs/duckietownrl/lib/python3.8/site-packages/gymnasium/vector/sync_vector_env.py", line 228, in step
+    self._observations = concatenate(
+  File "/opt/conda/envs/duckietownrl/lib/python3.8/functools.py", line 875, in wrapper
+    return dispatch(args[0].__class__)(*args, **kw)
+  File "/opt/conda/envs/duckietownrl/lib/python3.8/site-packages/gymnasium/vector/utils/space_utils.py", line 397, in _concatenate_base
+    return np.stack(items, axis=0, out=out)
+KeyboardInterrupt

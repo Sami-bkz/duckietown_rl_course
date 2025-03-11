@@ -1,0 +1,8 @@
+{"time":"2025-03-05T11:34:41.931490769Z","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/duckietown_rl_course/duckiesim/rl/wandb/offline-run-20250305_113441-4gnpon2x/logs/debug-core.log"}
+{"time":"2025-03-05T11:34:42.034457312Z","level":"INFO","msg":"created new stream","id":"4gnpon2x"}
+{"time":"2025-03-05T11:34:42.03451151Z","level":"INFO","msg":"stream: started","id":"4gnpon2x"}
+{"time":"2025-03-05T11:34:42.034551109Z","level":"INFO","msg":"sender: started","stream_id":"4gnpon2x"}
+{"time":"2025-03-05T11:34:42.034539409Z","level":"INFO","msg":"writer: Do: started","stream_id":"4gnpon2x"}
+{"time":"2025-03-05T11:34:42.034640306Z","level":"INFO","msg":"handler: started","stream_id":"4gnpon2x"}
+{"time":"2025-03-05T11:34:42.03881497Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T11:34:42.039145259Z","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}

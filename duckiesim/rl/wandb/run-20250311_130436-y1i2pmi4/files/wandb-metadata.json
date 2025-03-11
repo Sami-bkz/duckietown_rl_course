@@ -1,0 +1,42 @@
+{
+  "os":  "Linux-6.8.0-1021-azure-x86_64-with-glibc2.17",
+  "python":  "CPython 3.8.20",
+  "startedAt":  "2025-03-11T13:04:36.311316Z",
+  "program":  "ppo.py",
+  "codePath":  "duckiesim/rl/ppo.py",
+  "git":  {
+    "remote":  "https://github.com/Sami-bkz/duckietown_rl_course.git",
+    "commit":  "1ed28c882d961e52ce1b8fcceefdda5c5a97d632"
+  },
+  "email":  "sami.busuu@gmail.com",
+  "root":  "/home/duckietown_rl_course/duckiesim/rl",
+  "host":  "lab000000",
+  "executable":  "/opt/conda/envs/duckietownrl/bin/python",
+  "codePathLocal":  "ppo.py",
+  "cpu_count":  6,
+  "cpu_count_logical":  6,
+  "gpu":  "Tesla V100-PCIE-16GB",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "155897610240",
+      "used":  "97650462720"
+    }
+  },
+  "memory":  {
+    "total":  "118158376960"
+  },
+  "cpu":  {
+    "count":  6,
+    "countLogical":  6
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla V100-PCIE-16GB",
+      "memoryTotal":  "17179869184",
+      "cudaCores":  5120,
+      "architecture":  "Volta"
+    }
+  ],
+  "cudaVersion":  "12.2"
+}

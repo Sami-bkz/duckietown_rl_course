@@ -1,0 +1,16 @@
+{"time":"2025-03-11T10:32:07.098782541Z","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/duckietown_rl_course/duckiesim/rl/wandb/run-20250311_103207-ji0oaj0d/logs/debug-core.log"}
+{"time":"2025-03-11T10:32:07.20187674Z","level":"INFO","msg":"created new stream","id":"ji0oaj0d"}
+{"time":"2025-03-11T10:32:07.201925037Z","level":"INFO","msg":"stream: started","id":"ji0oaj0d"}
+{"time":"2025-03-11T10:32:07.201951736Z","level":"INFO","msg":"writer: Do: started","stream_id":"ji0oaj0d"}
+{"time":"2025-03-11T10:32:07.202003932Z","level":"INFO","msg":"sender: started","stream_id":"ji0oaj0d"}
+{"time":"2025-03-11T10:32:07.202897276Z","level":"INFO","msg":"handler: started","stream_id":"ji0oaj0d"}
+{"time":"2025-03-11T10:32:07.481836587Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-11T10:32:07.482288259Z","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-03-11T10:32:42.373513334Z","level":"INFO","msg":"stream: closing","id":"ji0oaj0d"}
+{"time":"2025-03-11T10:32:42.37357483Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-11T10:32:42.374323583Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-11T10:32:42.925711948Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-11T10:32:43.081918336Z","level":"INFO","msg":"handler: closed","stream_id":"ji0oaj0d"}
+{"time":"2025-03-11T10:32:43.081961334Z","level":"INFO","msg":"writer: Close: closed","stream_id":"ji0oaj0d"}
+{"time":"2025-03-11T10:32:43.081986832Z","level":"INFO","msg":"sender: closed","stream_id":"ji0oaj0d"}
+{"time":"2025-03-11T10:32:43.082099625Z","level":"INFO","msg":"stream: closed","id":"ji0oaj0d"}

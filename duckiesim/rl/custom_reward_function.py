@@ -169,8 +169,8 @@ def compute_custom_reward(obs, a):
             action_based_on_blue,
         ) = process_image(obs)
         if x_blue_center is None or y_blue_center is None:
-            reward = -100
+            reward = -10
         else:
             speed_action = (a[0]*10. if a[0]>0.1 else -1.)
-            reward = np.exp(-np.sqrt(x_blue_center**2+y_blue_center**2)**2) + speed_action #TODO
-        return reward/10
+            reward = np.exp(-np.sqrt(x_blue_center**2+y_blue_center**2)**2)*3 + speed_action #TODO
+        return reward
